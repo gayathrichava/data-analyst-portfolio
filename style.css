@@ -48,7 +48,7 @@ a {
 header {
     position: sticky;
     top: 0;
-    background: rgba(11, 16, 32, 0.96);
+    background: rgba(245, 247, 240, 0.96);
     border-bottom: 1px solid var(--border);
     z-index: 10;
 }
@@ -80,11 +80,11 @@ header {
     max-width: 1150px;
     margin: auto;
     padding: 125px 28px 140px;
-    background: radial-gradient(
-        ellipse at 85% 20%,
-        #28204b 0%,
-        transparent 55%
-    );
+   background: radial-gradient(
+    ellipse at 85% 20%,
+    #E0E9DB 0%,
+    transparent 55%
+);
 }
 
 .eyebrow {
