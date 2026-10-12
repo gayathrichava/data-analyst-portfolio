@@ -368,3 +368,49 @@ footer {
     }
 }
 
+/* Homepage introduction and profile photo */
+.hero-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero-photo {
+    flex: 0 0 300px;
+}
+
+.hero-photo img {
+    display: block;
+    width: 280px;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 48% 48% 45% 45%;
+    border: 5px solid #DCE5D8;
+    box-shadow: 0 12px 35px rgba(40, 69, 56, 0.15);
+}
+
+@media (max-width: 700px) {
+    .hero-layout {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-photo {
+        flex: auto;
+        align-self: center;
+    }
+
+    .hero-photo img {
+        width: 230px;
+        height: 280px;
+    }
+}
+
+
