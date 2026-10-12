@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
-    --bg: #0b1020;
-    --surface: #151c31;
-    --text: #f3f5ff;
-    --muted: #a8b4cb;
-    --purple: #b19aff;
-    --teal: #5ce1d1;
-    --border: #303b57;
+    --bg: #F5F7F0;
+    --surface: #FFFFFF;
+    --text: #26382D;
+    --muted: #66766A;
+    --purple: #557C61;
+    --teal: #78977B;
+    --border: #DCE5D8;
 }
+
 
 * {
     margin: 0;
